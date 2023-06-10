@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    margin: 24px;
+    gap: 24px;
+}
+
+.avatar {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    background-color: #D5E4F7;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

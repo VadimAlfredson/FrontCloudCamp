@@ -1,0 +1,52 @@
+.stepBody {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputSteps {
+    width: 300px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.stepsForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 680px;
+    margin: 80px 110px;
+    gap: 8px;
+}
+
+.selectInput {
+    padding: 12px;
+    border: 1px solid #00000029;
+    border-radius: 4px;
+    gap: 12px;
+    width: 300px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.selectItem {
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.backButton {
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    width: min-content;
+    background-color: rgba(0, 0, 0, 0);
+    color: #5558FA;
+    border: 1px solid #5558FA;
+}
+
+.buttonsSide {
+    margin-top: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

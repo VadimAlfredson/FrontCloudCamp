@@ -1,0 +1,16 @@
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    gap: 8px;
+}
+
+.inputMain {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.16);
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.titleInputMain {
+}
