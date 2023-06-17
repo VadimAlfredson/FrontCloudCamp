@@ -1,0 +1,45 @@
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    gap: 8px;
+}
+
+.inputMain {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.16);
+    margin-bottom: 24px;
+    margin-top: 8px;
+}
+.inputMainError {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.16);
+    margin-bottom: 0;
+    margin-top: 8px;
+    border: 1px solid red;
+}
+
+.titleInputMain {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.error {
+    font-size: small;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 12px;
+    height: 4px;
+
+}
+
+.buttonDisabled {
+    background-color: rgba(0, 0, 0, 0);
+    color: gray;
+    border: 1px solid gray;
+    margin-top: 24px;
+}
+
+.buttonMain {
+    margin-top: 24px;
+}

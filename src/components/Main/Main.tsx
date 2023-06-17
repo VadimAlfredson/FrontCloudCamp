@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './Main.module.css'
 import Card from "./Card/Card";
 import MainForm from "./MainForm/MainForm";

@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import {Navigate, Route, Routes} from "react-router-dom";
-import Main from "./Main/Main";
-import Step1 from './Content/Steps/Step1/Step1';
-import Step2 from "./Content/Steps/Stap2/Step2";
-import Step3 from './Content/Steps/Step3';
+import Main from "./components/Main/Main";
+import Step1 from './components/Content/Steps/Step1/Step1';
+import Step2 from "./components/Content/Steps/Stap2/Step2";
+import Step3 from './components/Content/Steps/Step3/Step3';
 
 const App = () => {
     return (
